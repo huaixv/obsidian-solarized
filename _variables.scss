@@ -20,9 +20,13 @@
   --background-primary-alt: var(--base02);
 
   /* Text */
-  --text-normal: var(--base0);
-  --text-muted: var(--base00);
-  --text-faint: var(--base01);
+  /* --base1 -> --base0 -> --base00 -> --base01 */
+  --nav-item-color-active: var(--base1);
+  --nav-item-color: var(--base00);
+
+  --text-normal: var(--base1);
+  --text-muted: var(--base0);
+  --text-faint: var(--base00);
 
   /* File explorer */
   --active-bg: var(--nav-item-background-active);
